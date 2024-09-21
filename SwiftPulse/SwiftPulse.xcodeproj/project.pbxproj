@@ -11,6 +11,7 @@
 		2C61EF232C9E94B0008DD0C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61EF222C9E94B0008DD0C3 /* ContentView.swift */; };
 		2C61EF252C9E94B1008DD0C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C61EF242C9E94B1008DD0C3 /* Assets.xcassets */; };
 		2C61EF282C9E94B1008DD0C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C61EF272C9E94B1008DD0C3 /* Preview Assets.xcassets */; };
+		2C61EF2F2C9E950D008DD0C3 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61EF2E2C9E950D008DD0C3 /* AudioRecorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2C61EF222C9E94B0008DD0C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C61EF242C9E94B1008DD0C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C61EF272C9E94B1008DD0C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C61EF2E2C9E950D008DD0C3 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				2C61EF222C9E94B0008DD0C3 /* ContentView.swift */,
 				2C61EF242C9E94B1008DD0C3 /* Assets.xcassets */,
 				2C61EF262C9E94B1008DD0C3 /* Preview Content */,
+				2C61EF2E2C9E950D008DD0C3 /* AudioRecorder.swift */,
 			);
 			path = SwiftPulse;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C61EF2F2C9E950D008DD0C3 /* AudioRecorder.swift in Sources */,
 				2C61EF232C9E94B0008DD0C3 /* ContentView.swift in Sources */,
 				2C61EF212C9E94B0008DD0C3 /* SwiftPulseApp.swift in Sources */,
 			);
