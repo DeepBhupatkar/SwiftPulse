@@ -13,10 +13,11 @@ class AudioRecorder: ObservableObject {
     private var audioRecorder: AVAudioRecorder?
     private var timer: Timer?
     
-    @Published var audioLevel: CGFloat = 0.0
+    @Published var audioLevel: CGFloat = 0.3
     
     init() {
         startRecording()
+//        simulateAudioLevel()
     }
     
     func startRecording() {
@@ -62,6 +63,13 @@ class AudioRecorder: ObservableObject {
         let normalizedValue = (clampedValue + 80) / 80
         return CGFloat(normalizedValue)
     }
+    
+    func simulateAudioLevel() {
+            // Simulate varying audio levels
+            Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { timer in
+                self.audioLevel = CGFloat.random(in: 0.2...1.0)
+            }
+        }
     
     func stopRecording() {
         audioRecorder?.stop()
