@@ -1,5 +1,8 @@
 # SwiftPulse-
 "Visualize the rhythm, powered by SwiftUI"
 
-https://github.com/user-attachments/assets/602814eb-74e7-4de9-a506-938a47613de7
+
+
+https://github.com/user-attachments/assets/d01d1990-bc22-45ba-be6c-bb90cbe622c6
+
 
