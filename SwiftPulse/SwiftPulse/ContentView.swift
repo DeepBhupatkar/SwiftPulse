@@ -85,6 +85,3 @@ struct VoiceActivityIndicator: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
